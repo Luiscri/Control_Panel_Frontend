@@ -39,7 +39,7 @@
                 </div>
 
                 <div id="table-viajes">
-                    <table class="table table-hover table-white" id="table">
+                    <table class="table table-hover table-white text-center" id="table">
                         <thead>
                             <tr>
                                 <th scope="col" class="col-icons"></th>

@@ -9,7 +9,7 @@
     <div class="wrapper">
         <header>
             <?php
-                include "templates/supervisorSidebar.php";
+                include "templates/empleadoSidebar.php";
             ?>
         </header>
         <main id="content">
@@ -24,7 +24,7 @@
                             <div class="line"></div>
                         </div>
                         <div class="col-2">
-                            <img src="assets/request.svg" alt="Icono solicitudes" class="page-icon">
+                            <img src="assets/plane.svg" alt="Icono viajes" class="page-icon">
                         </div>
                         <div class="col-5 centerVertical">
                             <div class="line"></div>
@@ -35,7 +35,7 @@
 
             <div class="container">
                 <div class="fontBig text-center headText mt-2">
-                    Solicitudes de Viaje
+                    Mis Viajes
                 </div>
 
                 <div id="table-viajes">
@@ -43,73 +43,90 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="col-icons"></th>
-                                <th scope="col" class="col-names">Nombre</th>
-                                <th scope="col" class="col-names">Apellidos</th>
-                                <th scope="col" class="col-icons">Tramitar</th>
+                                <th scope="col" class="col-employee-regular">Destino</th>
+                                <th scope="col" class="col-employee-regular">Fecha de Inicio</th>
+                                <th scope="col" class="col-employee-regular">Fecha de Fin</th>
+                                <th scope="col" class="col-employee-regular">Estado</th>
+                                <th scope="col" class="col-icons">Ver</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
+                                </td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
+                                </td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
                             </tr><tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
+                                </td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
                             </tr><tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
+                                </td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
                             </tr><tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
+                                </td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
                             </tr><tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
-                                <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
-                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
-                                    </a>
+                                <td>
+                                    <span class="glyphicon glyphicon-plane black-icon"></span>
                                 </td>
-                            </tr><tr>
-                                <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
-                                <td>Beatriz</td>
-                                <td>Blanco Béjar</td>
+                                <td>Londres</td>
+                                <td>26/11/2019</td>
+                                <td>15/12/2019</td>
+                                <td>Activo</td>
                                 <td class="text-center">
-                                    <a href="supervisorAutorizacionViaje.php">
+                                    <a href="empleadoDetalleViaje.php">
                                         <span class="glyphicon glyphicon-eye-open black-icon"></span>
                                     </a>
                                 </td>
@@ -122,12 +139,12 @@
     </div>
     <!-- Web page main Scripts -->
     <?php
-        include "templates/scripts.php";
-    ?>
+            include "templates/scripts.php";
+        ?>
 
     <!-- Script changing html title -->
     <script>
-        $('title').html("Solicitudes de Viaje");
+        $('title').html("Mis viajes");
     </script>
 
     <!-- Script changing active sidenav li -->
