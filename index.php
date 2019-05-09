@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html class="loginPage">
 <head>
     <?php
         include "templates/head.php";
     ?>
 </head>
-<body>
+<body class="loginPage">
     <main class="bg centerBoth">
         <form id="formulario" class="bg-light">
             <div class="form-group">

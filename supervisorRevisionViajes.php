@@ -53,36 +53,60 @@
                                 <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
                                 <td>Beatriz</td>
                                 <td>Blanco Béjar</td>
-                                <td class="text-center"><span class="glyphicon glyphicon-eye-open black-icon"></span></td>
+                                <td class="text-center">
+                                    <a href="supervisorProcesar.php">
+                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
                                 <td>Beatriz</td>
                                 <td>Blanco Béjar</td>
-                                <td class="text-center"><span class="glyphicon glyphicon-eye-open black-icon"></span></td>
+                                <td class="text-center">
+                                    <a href="supervisorProcesar.php">
+                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
                                 <td>Beatriz</td>
                                 <td>Blanco Béjar</td>
-                                <td class="text-center"><span class="glyphicon glyphicon-eye-open black-icon"></span></td>
+                                <td class="text-center">
+                                    <a href="supervisorProcesar.php">
+                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
                                 <td>Beatriz</td>
                                 <td>Blanco Béjar</td>
-                                <td class="text-center"><span class="glyphicon glyphicon-eye-open black-icon"></span></td>
+                                <td class="text-center">
+                                    <a href="supervisorProcesar.php">
+                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="text-center"><span class="glyphicon glyphicon-envelope black-icon"></span></td>
                                 <td>Beatriz</td>
                                 <td>Blanco Béjar</td>
-                                <td class="text-center"><span class="glyphicon glyphicon-eye-open black-icon"></span></td>
+                                <td class="text-center">
+                                    <a href="supervisorProcesar.php">
+                                        <span class="glyphicon glyphicon-eye-open black-icon"></span>
+                                    </a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
+
+            <?php
+                include "templates/footer.php";
+            ?>
         </main>
     </div>
     <!-- Web page main Scripts -->

@@ -75,8 +75,11 @@
                         </div>
                     </form>
                 </section>
-
             </div>
+
+            <?php
+                include "templates/footer.php";
+            ?>
         </main>
     </div>
 

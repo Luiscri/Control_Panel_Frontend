@@ -166,6 +166,10 @@
                     </div>
                 </section>
             </div>
+
+            <?php
+                include "templates/footer.php";
+            ?>
         </main>
     </div>
     <!-- Web page main Scripts -->

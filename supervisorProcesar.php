@@ -9,7 +9,7 @@
     <div class="wrapper">
         <header>
             <?php
-                include "templates/empleadoSidebar.php";
+                include "templates/supervisorSidebar.php";
             ?>
         </header>
         <main id="content">
@@ -35,17 +35,23 @@
 
             <div class="container">
                 <div class="position-relative">
-                    <a class="back-container centerBoth" href="empleadoViajes.php">
+                    <a class="back-container centerBoth" href="supervisorRevisionViajes.php">
                         <img src="assets/back.svg" alt="Flecha atrás" class="back-icon">
                         <span class="ml-3">Volver atrás</span>
                     </a>
 
                     <div class="fontBig text-center headText my-3">
-                        Detalle del Viaje
+                        Procesar Viaje
                     </div>
                 </div>
 
                 <section class="col-8 centerHorizontal">
+                    <div class="row mb-2">
+                        <div class="col-12 col-md-5">
+                            <div class="fontBig info-header">Nombre del empleado:</div>
+                            <span>Juan Carlos Dueñas</span>
+                        </div>
+                    </div>
                     <div class="row mb-2">
                         <div class="col-12 col-md-5">
                             <div class="fontBig info-header">Origen del viaje:</div>
@@ -69,11 +75,8 @@
                         </div>
                     </div>
                     <div class="fontBig info-header mt-5">Lista de gastos:</div>
-                </section>
-
-                <section>
                     <div class="row centerBoth">
-                        <div id="table-viajes" class="col-md-4">
+                        <div id="table-viajes" class="col-md-5">
                             <table class="table table-hover table-white text-center" id="table">
                                 <thead>
                                 <tr>
@@ -119,23 +122,25 @@
                         </div>
                     </div>
 
-                    <div class="row mt-4 centerBoth">
-                        <div class="text-center col-4">
-                            <form>
-                                <input id="bill" name="bill" type="file" class="form-control required" required>
-                                <input type="submit" class="btn fontBig mt-3" value="Agregar factura">
-                            </form>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="col-8 centerHorizontal">
                     <div class="row">
                         <div class="col-12 col-md-5">
                             <div class="fontBig info-header mt-3">Gastos totales:</div>
                             <span>1.000.000€</span>
                         </div>
                         <div class="col-md-7"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="centerBoth col-12" style="flex-direction: row;">
+                            <form class="mr-1">
+                                <input type="hidden" name="" value="">
+                                <button type="submit" class="btn fontBig">Aceptar</button>
+                            </form>
+                            <form>
+                                <input type="hidden" name="" value="">
+                                <button type="submit" class="btn fontBig">Rechazar</button>
+                            </form>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -153,12 +158,12 @@
 
     <!-- Script changing html title -->
     <script>
-        $('title').html("Autorizar viaje");
+        $('title').html("Procesar viaje");
     </script>
 
     <!-- Script changing active sidenav li -->
     <script>
-        $("#sidebar ul li:first-child").addClass('active');
+        $("#sidebar ul li:nth-child(2)").addClass('active');
     </script>
 </body>
 </html>
