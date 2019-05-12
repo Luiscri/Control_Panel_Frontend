@@ -469,8 +469,16 @@ input[type=number] {
     width: 30%;
 }
 
-.col-bill-file {
-    width: 95%;
+.col-bill-price {
+    width: 15%;
+}
+
+.col-bill-regular {
+    width: 20%;
+}
+
+.col-bill-concept {
+    width: 40%;
 }
 
 /*********************

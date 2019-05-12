@@ -72,59 +72,87 @@
                 </section>
 
                 <section>
-                    <div class="row centerBoth">
-                        <div id="table-viajes" class="col-md-4">
-                            <table class="table table-hover table-white text-center" id="table">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="col-icons"></th>
-                                    <th scope="col" class="col-bill-file">Facturas</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
+                    <div id="table-viajes">
+                        <table class="table table-hover table-white text-center" id="table">
+                            <thead>
+                            <tr>
+                                <th scope="col" class="col-icons"></th>
+                                <th scope="col" class="col-bill-regular">Fecha</th>
+                                <th scope="col" class="col-bill-concept">Concepto</th>
+                                <th scope="col" class="col-bill-price">Coste</th>
+                                <th scope="col" class="col-bill-regular">Factura</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-usd black-icon"></span>
+                                </td>
+                                <td>25/11/2019</td>
+                                <td>Billete de avión</td>
+                                <td>300€</td>
+                                <td>
+                                    <a href="">Descargar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-usd black-icon"></span>
+                                </td>
+                                <td>25/11/2019</td>
+                                <td>Billete de avión</td>
+                                <td>300€</td>
+                                <td>
+                                    <a href="">Descargar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-usd black-icon"></span>
+                                </td>
+                                <td>25/11/2019</td>
+                                <td>Billete de avión</td>
+                                <td>300€</td>
+                                <td>
+                                    <a href="">Descargar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-usd black-icon"></span>
+                                </td>
+                                <td>25/11/2019</td>
+                                <td>Billete de avión</td>
+                                <td>300€</td>
+                                <td>
+                                    <a href="">Descargar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <form id="billForm">
                                     <td>
-                                        <span class="glyphicon glyphicon-usd black-icon"></span>
+                                        <span class="glyphicon glyphicon-plus black-icon"></span>
                                     </td>
                                     <td>
-                                        <a href="">Descargar</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="glyphicon glyphicon-usd black-icon"></span>
+                                        <input id="date" name="date" type="date" class="form-control required" placeholder="DD/MM/YYYY" required>
                                     </td>
                                     <td>
-                                        <a href="">Descargar</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="glyphicon glyphicon-usd black-icon"></span>
+                                        <input id="department" name="department" type="text" class="form-control required" placeholder="Descripción" required>
                                     </td>
                                     <td>
-                                        <a href="">Descargar</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="glyphicon glyphicon-usd black-icon"></span>
+                                        <input id="price" name="price" type="number" class="form-control required" placeholder="Coste en euros" required>
                                     </td>
                                     <td>
-                                        <a href="">Descargar</a>
+                                        <input id="bill" name="bill" type="file" class="form-control required" required>
                                     </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                </form>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
-
-                    <div class="row mt-4 centerBoth">
-                        <div class="text-center col-4">
-                            <form>
-                                <input id="bill" name="bill" type="file" class="form-control required" required>
-                                <input type="submit" class="btn fontBig mt-3" value="Agregar factura">
-                            </form>
+                    <div class="row">
+                        <div class="text-center col-12">
+                            <input type="submit" form="billForm" class="btn fontBig" value="Agregar factura">
                         </div>
                     </div>
                 </section>
